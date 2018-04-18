@@ -210,7 +210,9 @@ $ deactivate
 
 Now let's install `jupyter notebook`:
 
-`pip3 install jupyter`
+```bash 
+pip3 install jupyter
+```
 
 ### Python 3 on Windows
 
@@ -224,6 +226,7 @@ One thing to watch out for: during the installation, you will notice a window ma
 Don't forget to add Python to the Path
 
 In upcoming steps, you'll be using the Windows Command Line (which we'll also tell you about). For now, if you need to type in some commands, go to Start menu → Windows System → Command Prompt. You can also hold in the Windows key and press the "R"-key until the "Run" window pops up. To open the Command Line, type "cmd" and press enter in the "Run" window. (On newer versions of Windows, you might have to search for "Command Prompt" since it's sometimes hidden.)
+
 <img src='https://tutorial.djangogirls.org/en/python_installation/images/windows-plus-r.png'>
 
 Type "cmd" in the "Run" window
