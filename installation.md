@@ -98,7 +98,7 @@ pip3 install jupyterlab
 Once you're done, you only have to run it:
 
 ```bash
-jupyter-lab
+jupyter lab
 ```
 
 ### Python 3 on macOS
@@ -159,7 +159,7 @@ pip3 install jupyterlab
 Once you're done, you only have to run it:
 
 ```bash
-jupyter-lab
+jupyter lab
 ```
 
 ### Python 3 on Windows
@@ -196,7 +196,7 @@ pip3 install jupyterlab
 Once you're done, you only have to run it:
 
 ```bash
-jupyter-lab
+jupyter lab
 ```
 
 # Notebook Format
