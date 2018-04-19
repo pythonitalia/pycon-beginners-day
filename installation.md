@@ -199,6 +199,7 @@ Once you're done, you only have to run it:
 jupyter lab
 ```
 
+<a name="notebook"></a>
 # Notebook Format
 
 If you don't know what a Jupyter notebook is, or how to use it, please take a look at this quick
