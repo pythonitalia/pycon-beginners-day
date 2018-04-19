@@ -1,28 +1,45 @@
 
 # PyCon Nove Beginner's Day
-Before using the notebooks please install `Python` and `virtualenv` according to your operating system.
 
+All the materials of this tutorial is available in Jupyter notebook
+format.
+
+To have a sneak peak of what a Jupyter notebook is, jump to the
+<a href="#notebook">Notebook format</a> section.
+
+Before using the notebooks please follow the
+<a href="#installation">installation guide</a> to install
+`Python` according to your operating system.
+
+<a name="installation"></a>
 # Installation Guides
-These guides go over the proper installation of Python for development purposes, as well as `setuptools`, `pip` and `virtualenv`.
+
+This guide goes over the proper installation of Python for development purposes.
 
 ## Python 3 Installation Guides
 
 ### Python 3 on Linux
 
-To see which version of Python 3 you have installed, open a command prompt and run:
+Python is already installed in most of the Linux distributions.
+So, in principle, you should be already done.
+
+To see which version of Python 3 you have installed,
+open a command prompt and run:
 
 ```bash
 $ python3 --version
 ```
 
-If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+If you are using Ubuntu 16.10 or latest, then you can easily install
+Python 3.6 with the following commands:
 
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
 
-If you’re using another version of Ubuntu (e.g. the latest LTS release), we recommend using the `deadsnakes PPA` to install Python 3.6:
+If you’re using another version of Ubuntu (e.g. the latest LTS release),
+we recommend using the `deadsnakes PPA` to install Python 3.6:
 
 ```bash
 $ sudo apt-get install software-properties-common
@@ -31,7 +48,11 @@ $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
 
-If you are using other Linux distribution, chances are you already have Python 3 pre-installed as well. If not, use your distribution’s package manager. For example on Fedora, you would use `dnf`:
+If you are using other Linux distribution, chances are you already have
+Python 3 pre-installed as well.
+If not, use your distribution’s package manager.
+
+For example on Fedora, you would use `dnf`:
 
 
 ```bash
@@ -44,9 +65,13 @@ Note that if the version of the python3 package is not recent enough for you, th
 
 The two most crucial third-party Python packages are `setuptools` and `pip`.
 
-Once installed, you can download, install and uninstall any compliant Python software product with a single command. It also enables you to add this network installation capability to your own Python software with very little work.
+Once installed, you can download, install and uninstall any compliant
+Python software product with a single command.
+It also enables you to add this network installation capability to
+your own Python software with very little work.
 
-Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include `pip` by default.
+Python 2.7.9 and later (on the python2 series), and Python 3.4 and later
+include `pip` by default.
 
 To see if `pip` is installed, open a command prompt and run:
 
@@ -54,60 +79,15 @@ To see if `pip` is installed, open a command prompt and run:
 $ command -v pip
 ```
 
-To install pip, follow the official pip installation guide - this will automatically install the latest version of `setuptools`.
+To install pip, follow the official pip installation guide -
+this will automatically install the latest version of `setuptools`.
 
-Note that on some Linux distributions including Ubuntu and Fedora the `pip` command is meant for Python 2, while the `pip3` command is meant for Python 3.
+Note that on some Linux distributions including Ubuntu and Fedora the `pip`
+command is meant for Python 2, while the `pip3` command is meant for Python 3.
 
 ```bash
 $ command -v pip3
 ```
-
-However, when using virtual environments (described below), you don’t need to care about that.
-
-#### Virtual Environments
-The next step is to install `virtualenv` so you can install dependencies and manage virtual environments.
-
-A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x, but Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
-
-For example, you can work on a project which requires Django 1.10 while also maintaining a project which requires Django 1.8.
-
-`virtualenv` is a tool to create isolated Python environments. `virtualenv`: creates a folder which contains all the necessary executables to use the packages that a Python project would need.
-
-**Installing `virtualenv` via `pip`**:
-
-```bash
-$ pip install virtualenv
-```
-
-**Test your installation:**
-
-```bash
-$ virtualenv --version
-```
-
-**Create a virtual environment for a project:**
-
-```bash
-$ cd my_project_folder
-$ virtualenv my_project
-```
-
-`virtualenv` my_project will create a folder in the current directory which will contain the Python executable files, and a copy of the `pip` library which you can use to install other packages. The name of the virtual environment (in this case, it was `my_project`) can be anything you want; omitting the name will place the files in the current directory instead.
-
-This creates a copy of Python in whichever directory you ran the command in, placing it in a folder named `my_project`.
-
-**To activate the `virtualenv`:**
-
-```bash
-$ source my_project/bin/activate
-```
-
-**To deactivate:**
-
-```bash
-$ deactivate
-```
-
 
 Now let's install `jupyter notebook`:
 
@@ -164,53 +144,9 @@ will launch the homebrew-installed Python 3 interpreter.
 
 If the `Homebrew` version of Python 2 is installed then `pip2` will point to Python 2. If the `Homebrew` version of Python 3 is installed then `pip` will point to Python 3.
 
-#### Virtual Environments
-The next step is to install `Virtualenv`, so you can install dependencies and manage virtual environments.
-
-A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
-
-For example, you can work on a project which requires Django 1.10 while also maintaining a project which requires Django 1.8.
-
-`virtualenv` is a tool to create isolated Python environments. `virtualenv` creates a folder which contains all the necessary executables to use the packages that a Python project would need.
-
-**Install `virtualenv` via `pip`**:
-
-```bash
-$ pip install virtualenv
-```
-
-**Test your installation:**
-
-```bash
-$ virtualenv --version
-```
-
-**Create a virtual environment for a project:**
-
-```bash
-$ cd my_project_folder
-$ virtualenv my_project
-```
-
-`virtualenv my_project` will create a folder in the current directory which will contain the Python executable files, and a copy of the `pip` library which you can use to install other packages. The name of the virtual environment (in this case, it was `my_project`) can be anything you want; omitting the name will place the files in the current directory instead.
-
-This creates a copy of Python in whichever directory you ran the command in, placing it in a folder named `my_project`.
-
-**To activate the `virtualenv`:**
-
-```bash
-$ source my_project/bin/activate
-```
-
-**To deactivate:**
-
-```
-$ deactivate
-```
-
 Now let's install `jupyter notebook`:
 
-```bash 
+```bash
 pip3 install jupyter
 ```
 
@@ -239,37 +175,24 @@ If you install an older version of Python, the installation screen may look a bi
 
 <img src='https://tutorial.djangogirls.org/en/python_installation/images/add_python_to_windows_path.png'>
 
-#### Virtual environment
-Before installing software via `pip` we will get you to install an extremely useful tool to help keep your coding environment tidy on your computer. It's possible to skip this step, but it's highly recommended. Starting with the best possible setup will save you a lot of trouble in the future!
-
-So, let's create a virtual environment (also called a virtualenv). `virtualenv` will isolate your Python setup on a per-project basis.
-
-All you need to do is find a directory in which you want to create the virtualenv; your home directory, for example. On Windows, it might look like 
-
-```
-C:\Users\Name\ (where Name is the name of your login).
-```
-
-NOTE: On Windows, make sure that this directory does not contain accented or special characters; if your username contains accented characters, use a different directory, for example, `C:\myproject`.
-
-To create a new virtualenv, you need to open the command prompt and run 
-
-```
-python -m venv myvenv
-```
-
-where `myvenv` is the name of your virtualenv. You can use any other name, but stick to lowercase and use no spaces, accents or special characters. It is also good idea to keep the name short – you'll be referencing it a lot!
-
-The command above will create a directory called `myvenv` (or whatever name you chose) that contains our virtual environment (basically a bunch of directory and files).
-
-Start your virtual environment by running:
-
-```
-C:\Users\Name\> myvenv\Scripts\activate
-```
-
 Now let's install `jupyter notebook`:
 
 ```
 C:\Users\Name\> pip3 install jupyter`
 ```
+
+# Notebook Format
+
+If you don't know what a Jupyter notebook is, or how to use it, please take a look at this quick
+introductory tour: [IPython Notebook Beginner Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html).
+
+For additional details and materials on Jupyter and IPython, I suggest this
+[Jupyter Notebook the Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook):
+
+- [What is a Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#WhatIs)
+- [Practical Introduction](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook##UseJupyter)
+- [Notebook Examples](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook##NotebookExamples)
+
+If you jumped to this section, skipping the installation step,
+please go back to the <a href="#installation">installation guide<a/>
+section.
