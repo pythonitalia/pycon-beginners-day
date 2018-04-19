@@ -89,10 +89,16 @@ command is meant for Python 2, while the `pip3` command is meant for Python 3.
 $ command -v pip3
 ```
 
-Now let's install `jupyter notebook`:
+Now let's install `jupyterlab`:
 
 ```bash
-pip3 install jupyter
+pip3 install jupyterlab
+```
+
+Once you're done, you only have to run it:
+
+```bash
+jupyter-lab
 ```
 
 ### Python 3 on macOS
@@ -144,10 +150,16 @@ will launch the homebrew-installed Python 3 interpreter.
 
 If the `Homebrew` version of Python 2 is installed then `pip2` will point to Python 2. If the `Homebrew` version of Python 3 is installed then `pip` will point to Python 3.
 
-Now let's install `jupyter notebook`:
+Now let's install `jupyterlab`:
 
 ```bash
-pip3 install jupyter
+pip3 install jupyterlab
+```
+
+Once you're done, you only have to run it:
+
+```bash
+jupyter-lab
 ```
 
 ### Python 3 on Windows
@@ -175,10 +187,16 @@ If you install an older version of Python, the installation screen may look a bi
 
 <img src='https://tutorial.djangogirls.org/en/python_installation/images/add_python_to_windows_path.png'>
 
-Now let's install `jupyter notebook`:
+Now let's install `jupyterlab`:
 
+```bash
+pip3 install jupyterlab
 ```
-C:\Users\Name\> pip3 install jupyter`
+
+Once you're done, you only have to run it:
+
+```bash
+jupyter-lab
 ```
 
 # Notebook Format
