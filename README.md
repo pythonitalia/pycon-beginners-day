@@ -5,9 +5,9 @@ by looking at the repo content, this tutorial is not only for mere beginners.
 
 In fact, the material is organised in three different folders:
 
-- [Beginner](./1. Beginner)
-- [Intermediate](./2. Intermediate)
-- [Data Science](./3 Data Science)
+- **Beginner**
+- **Intermediate**
+- **Data Science**
 
 Please feel free to pick the group/folder you like the most.
 
