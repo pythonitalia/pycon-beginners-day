@@ -4,13 +4,18 @@
 
 🇬🇧 Welcome to [PyCon 2022](https://pycon.it) Beginners' Day Workshop! The workshop for beginners and code practictioners to the main features of the [Python](https://python.org) programming language.
 
+### Get Started
 
-- About the workshop [ita](#descrizione-🇮🇹) | [eng](#about-🇬🇧)
-- [Get Started](#get-started)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pythonitalia/pycon-beginners-day/pycon-2022)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pythonitalia/pycon-beginners-day/pycon-2022)
+
+
+- About the workshop [ita](#descr-ita) | [eng](#descr-eng)
 - [Credits](#credits)
 - [License](#license)
 
-### Descrizione 🇮🇹
+### <a name="descr-ita">Descrizione 🇮🇹 </a>
 
 Durante il workshop lavoreremo su un progetto che vuole realizzare un innovativo [Motore di Ricerca](https://it.wikipedia.org/wiki/Motore_di_ricerca) per i **Pokémon**.
 
@@ -43,7 +48,7 @@ Obiettivo dell'algoritmo è quello di confrontare il valore di ciascuna di quest
 
 Il codice sviluppato durante il workshop non farà uso di alcuno strumento o software di terze parti che non sia direttamente incluso nell'installazione del linguaggio Python, con la sola eccezione di [`ipyplot`](https://github.com/karolzak/ipyplot) esclusivamente utilizzato per mostrare le immagini dei Pokémon.
 
-### About 🇬🇧
+### <a name="descr-eng">About 🇬🇧</a>
 
 During the workshop, we will design an innovative **Pokémon** [Search Engine](https://en.wikipedia.org/wiki/Search_engine).
 
@@ -77,13 +82,6 @@ We won't be using any external libraries or software. Everything will be impleme
 This is true with the **only exception of the [`ipyplot`](https://github.com/karolzak/ipyplot) package, that will be used in the _bonus material_ to display Pokémon images.
 
 The development environment used throughout the workshop will be [Jupyter](https://jupyter.org).
-
-### Get Started
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pythonitalia/pycon-beginners-day/pycon-2022)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://mybinder.org/v2/gh/pythonitalia/pycon-beginners-day/pycon-2022)
-
 
 ### CREDITS
 
