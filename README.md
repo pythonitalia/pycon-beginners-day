@@ -47,6 +47,8 @@ Obiettivo dell'algoritmo è quello di confrontare il valore di ciascuna di quest
 
 Il codice sviluppato durante il workshop non farà uso di alcuno strumento o software di terze parti che non sia direttamente incluso nell'installazione del linguaggio Python, con la sola eccezione di [`ipyplot`](https://github.com/karolzak/ipyplot) esclusivamente utilizzato per mostrare le immagini dei Pokémon.
 
+[↑ Back to top](#table-of-content)
+
 ### <a name="descr-eng">About 🇬🇧</a>
 
 During the workshop, we will design an innovative **Pokémon** [Search Engine](https://en.wikipedia.org/wiki/Search_engine).
@@ -82,15 +84,21 @@ This is true with the **only exception of the [`ipyplot`](https://github.com/kar
 
 The development environment used throughout the workshop will be [Jupyter](https://jupyter.org).
 
+[↑ Back to top](#table-of-content)
+
 ### CREDITS
 
 - [Giuseppe Mastrandrea](https://github.com/giuseppemastrandrea), Machine Learning Teacher `@` [Datamasters.it](https://datamasters.it/): code, and lecture materials
 - [Alberto Barradas](https://www.kaggle.com/datasets/abcsds/pokemon) - Original Pokémon Dataset
 - [Ken Sugimori](https://veekun.com/dex/downloads) - Pokémon Arts (adapted, and compressed in JPEG for storage requirements)
 
+[↑ Back to top](#table-of-content)
+
 ### LICENSE
 
 All the **Code** material is distributed under the terms of the Apache License. See [LICENSE](./LICENSE) file for additional details.
 
 All the instructional materials in this repository are free to use, and made available under the [Creative Commons Attribution
-license][https://creativecommons.org/licenses/by/4.0/].
+license](https://creativecommons.org/licenses/by/4.0/).
+
+[↑ Back to top](#table-of-content)
