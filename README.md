@@ -1,5 +1,7 @@
 # PyCon 2022 Beginners' Day Workshop
 
+![PyCon 2022 Banner](./banner_pycon22.png)
+
 🇮🇹 Benvenuti al Workshop per Beginners di [PyCon 2022](https://pycon.it)! Il workshop pensato per introdurre neofiti e appassionati al linguaggio di programmazione Python.
 
 🇬🇧 Welcome to [PyCon 2022](https://pycon.it) Beginners' Day Workshop! The workshop for beginners and code practictioners to the main features of the [Python](https://python.org) programming language.
