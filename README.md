@@ -83,7 +83,7 @@ The development environment used throughout the workshop will be [Jupyter](https
 
 ### CREDITS
 
-- Giuseppe Mastrandrea, Machine Learning Teacher `@` [Datamasters.it](https://datamasters.it/): code, and lecture materials
+- [Giuseppe Mastrandrea](https://github.com/giuseppemastrandrea), Machine Learning Teacher `@` [Datamasters.it](https://datamasters.it/): code, and lecture materials
 - [Alberto Barradas](https://www.kaggle.com/datasets/abcsds/pokemon) - Original Pokémon Dataset
 - [Ken Sugimori](https://veekun.com/dex/downloads) - Pokémon Arts (adapted, and compressed in JPEG for storage requirements)
 
