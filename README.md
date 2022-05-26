@@ -4,10 +4,11 @@
 
 🇬🇧 Welcome to [PyCon 2022](https://pycon.it) Beginners' Day Workshop! The workshop for beginners and code practictioners to the main features of the [Python](https://python.org) programming language.
 
-### Get Started
+## Get Started
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pythonitalia/pycon-beginners-day/pycon-2022) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pythonitalia/pycon-beginners-day/blob/pycon-2022/index.ipynb)
 
+## Table of Content
 
 - About the workshop [ita](#descr-ita) | [eng](#descr-eng)
 - [Credits](#credits)
