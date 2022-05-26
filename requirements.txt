@@ -1,5 +1,4 @@
 ipyplot==1.1.1
 ipython
 jupyter
-matplotlib-inline
 notebook
