@@ -8,6 +8,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pythonitalia/pycon-beginners-day/pycon-2022) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pythonitalia/pycon-beginners-day/blob/pycon-2022/index.ipynb)
 
+Slides Deck: [🇮🇹](https://frankhood-my.sharepoint.com/:p:/g/personal/info_frankhood_onmicrosoft_com/Ed5gx77NS1pKgQqe6q-kMYwBGpgDpDZku6P1t0D_oc7Jwg?e=ceqGRf) | [🇬🇧](https://frankhood-my.sharepoint.com/:p:/g/personal/info_frankhood_onmicrosoft_com/EVFNQKGir89Bpa8L2JHfQw0BAVkx8_8A0dTr6OIFGWEehg?e=pa23Uc)
+
 ## Table of Content
 
 - About the workshop [ita](#descr-ita) | [eng](#descr-eng)
