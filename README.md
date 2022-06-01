@@ -47,7 +47,7 @@ Obiettivo dell'algoritmo è quello di confrontare il valore di ciascuna di quest
 
 #### Strumenti
 
-Il codice sviluppato durante il workshop non farà uso di alcuno strumento o software di terze parti che non sia direttamente incluso nell'installazione del linguaggio Python, con la sola eccezione di [`ipyplot`](https://github.com/karolzak/ipyplot) esclusivamente utilizzato per mostrare le immagini dei Pokémon.
+Il codice sviluppato durante il workshop non farà uso di alcuno strumento o software di terze parti che non sia direttamente incluso nell'installazione del linguaggio Python.
 
 [↑ Back to top](#table-of-content)
 
